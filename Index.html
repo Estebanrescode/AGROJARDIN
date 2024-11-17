@@ -5,50 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroJardin</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/Index.css">
     <link rel="icon" href="/SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
 </head>
 
 <body>
     <header>
-        <nav class="header">
-            <div class="header-left">
-                <a href="#" class="logo">
-                    <img src="/SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png" alt="AgroJardinlogo"> AgroJardin
-                </a>
-            </div>
-            <div class="header-center">
-                <input type="text" class="barra-bar" placeholder="Buscar productos">
-                <button type="submit" class="barra-btn"><img src="/SRC/LOGO/busqueda.png" alt="" width="20px" height="20px"></button>
-            </div>
-            <div class="header-right">
-                <div class="icons">
-                    <a href="#" class="icon"><img src="/SRC/LOGO/favorito.png" alt="" class="iconoimg"></a>
-                    <a href="#" class="icon"><img src="/SRC/LOGO/usuario.png" alt="" class="iconoimg"></a>
-                    <a href="#" class="icon"><img src="/SRC/LOGO/carrito-de-compras.png" alt="" class="iconoimg"></a>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="container-logo">
+                    <img src="/SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png" alt="">
+                    <h1 class="logo"><a href="/">AgroJardin</a></h1>
+                </div>
+                <form class="form-busqueda">
+                    <input type="search" placeholder="Buscar">
+                    <button class="btn-busqueda">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+                <div class="container-usuario">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="content-carrito-compras">
+                        <span class="text">Favoritos</span>
+                        <span class="text">Historial compras</span>
+                        <span class="text">Carrito de compras</span>
+                        <span class="number">(0)</span>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-        <nav class="sub-navbar">
-            <ul class="menu">
-                <li class="menu-item">
-                    <a href="#">Home ▼</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Home Default</a></li>
-                        <li><a href="#">Home Alternative</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item"><a href="#">Shop ▼</a></li>
-                <li class="menu-item"><a href="#">Stores ▼</a></li>
-                <li class="menu-item"><a href="#">Mega menu ▼</a></li>
-                <li class="menu-item"><a href="#">Pages ▼</a></li>
-                <li class="menu-item"><a href="#">Account ▼</a></li>
-                <li class="menu-item"><a href="#">Dashboard</a></li>
-                <li class="menu-item"><a href="#">Docs</a></li>
-            </ul>
-        </nav>    
-
+        </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars-staggered"></i>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="#">Descuentos</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Destacados</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="#">Proveedores</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Guia de devoluciones</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -68,6 +72,8 @@
 
 
 
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
