@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Estilo */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2f2f2f;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+
+.header-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-container {
+    position: relative;
+    width: 50%;
+}
+
+.barra-bar {
+    width: 50%;
+    padding: 10px 45px 10px 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.barra-btn {
+    position: absolute;
+    right: 29%;
+    top: 7.2%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #555;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.barra-btn:hover {
+    color: #000;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.location-btn {
+    background: none;
+    border: none;
+    color: #2f2f2f;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #2f2f2f;
+    position: relative;
+}
+
+.iconoimg{
+    width: 25px;
+    height: 25px;
+}
+
+/* Navbar Estilo */
+.sub-navbar {
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu-item {
+    position: relative;
+    padding: 0 15px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.menu-item a:hover {
+    color: #00c000;
+}
+
+/* Dropdown Menu */
+.menu-item .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    padding: 5px 0;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.dropdown li a:hover {
+    color: #00c000;
+}
