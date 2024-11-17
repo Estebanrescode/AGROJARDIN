@@ -188,3 +188,9 @@ border-right: 1px solid #e2e2e2;
 .menu a:hover{
     color: #ffffff;
 }
+
+/* CARROUSEL */
+.carousel-img{
+    width: 400px;
+    height: 400px;
+}
