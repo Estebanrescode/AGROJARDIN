@@ -194,3 +194,10 @@ border-right: 1px solid #e2e2e2;
     width: 400px;
     height: 400px;
 }
+footer {
+    flex-direction: row !important;
+    background: #c7a17a;
+    color: #fff;
+}
+
+  
