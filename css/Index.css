@@ -240,9 +240,7 @@ footer {
 	font-weight: 500;
 }
 
-/* ********************************** */
-/*             CATEGORIES             */
-/* ********************************** */
+
 
 .top-categories {
 	display: flex;
@@ -319,9 +317,6 @@ footer {
 	color: var(--primary-color);
 }
 
-/* ********************************** */
-/*            TOP PRODUCTS            */
-/* ********************************** */
 .top-products {
 	display: flex;
 	flex-direction: column;
@@ -509,9 +504,7 @@ footer {
 	margin-left: 0.5rem;
 }
 
-/* ********************************** */
-/*               GALLERY              */
-/* ********************************** */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -533,9 +526,6 @@ footer {
 }
 
 
-/* ********************************** */
-/*              SPECIALS              */
-/* ********************************** */
 .specials {
 	display: flex;
 	flex-direction: column;
