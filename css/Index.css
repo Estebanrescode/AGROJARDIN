@@ -479,9 +479,6 @@ footer {
 	justify-content: center;
 }
 
-.card-product img{
-    
-}
 
 .add-cart:hover {
 	background-color: var(--primary-color);
