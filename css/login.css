@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: linear-gradient(150deg, #f6f7f9, #000 );
+    background: linear-gradient(150deg, #f6f7f9, #c7a17a );
     height: 100vh;
 }
 .formulario{
@@ -11,13 +11,13 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
-    background: rgb(245, 245, 242);
+    background: linear-gradient(150deg, #c7a17a, #f6f7f9);
     border-radius: 10px;
 }
 .formulario h1{
     text-align: center;
     padding: 0 0 20px 0;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid #c7a17a;
 }
 .formulario form{
     padding: 0 40px;
@@ -25,7 +25,7 @@ body{
 }
 form .usuario{
     position: relative;
-    border-bottom:  2px solid #807979;
+    border-bottom:  2px solid #0a0202;
     margin: 30px 0;
 
 }
@@ -56,13 +56,13 @@ form .usuario{
     left: 0;
     width: 100%;
     height: 2px;
-    background: #0032fb;
+    background: #000000;
     transition: .5s;
 }
 .usuario input:focus ~ label,
 .usuario input:focus ~ label{
     top: -5px;
-    color: #053afa;
+    color: #000000;
 }
 .usuario input:focus ~ span::before,
 .usuario input:focus ~ span::before{
@@ -89,7 +89,7 @@ input[type="submit"]{
     outline: none;
 }
 input[type="submit"]:hover{
-    border-color: black;
+    border-color: #c7a17a;
     transition: .5s;
 }
 .registro{
