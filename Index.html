@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="icon" href="/SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
+    <link rel="stylesheet" href="css/efectos.css">
+    <link rel="stylesheet" href="css/whatsappbutton.css">
     <script src="https://kit.fontawesome.com/4e13bba28a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
         <div class="container-hero">
             <div class="container hero">
                 <div class="container-logo">
@@ -36,15 +38,15 @@
             </div>
         </div>
         <div class="container-navbar">
-            <nav class="navbar container">
+            <nav class="navbar container" >
                 <i class="fa-solid fa-bars-staggered"></i>
                 <ul class="menu">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Catalogo</a></li>
-                    <li><a href="#">Descuentos</a></li>
-                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#DESCUENTOS">Descuentos</a></li>
+                    <li><a href="#GALLERY">Galeria</a></li>
                     <li><a href="#">Destacados</a></li>
-                    <li><a href="#">Marcas</a></li>
+                    <li><a href="#MARCAS">Marcas</a></li>
                     <li><a href="#">Proveedores</a></li>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Guia de devoluciones</a></li>
@@ -100,7 +102,25 @@
                 </button>
             </div>
         </section>
-        <section class="container top-products">
+        <br>
+        <section class="container top-categories" id="MARCAS">
+            <h1 class="heading-1">Mejores Proveedores</h1>
+            <div class="container-categories">
+                <div class="card-category category-uno">
+                    <p>Sthil</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-dos">
+                    <p>Makita</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-tres">
+                    <p>HUSQVARNA</p>
+                    <span>Ver más</span>
+                </div>
+            </div>
+        </section>
+        <section class="container top-products" id="DESCUENTOS">
             <h1 class="heading-1">Mejores Descuentos</h1>
 
             <div class="container-options">
@@ -240,9 +260,10 @@
                     </div>
                 </div>
             </div>
+            <h1 class="heading-1">Galeria de imagenes</h1>
         </section>
 
-        <section class="gallery">
+        <section class="gallery" id="GALLERY">
             <img src="SRC/GALLERY/1.webp" alt="IMG1" class="gallery-img-1" /><img src="SRC/GALLERY/2.webp" alt="IMG2"
                 class="gallery-img-2" /><img src="SRC/GALLERY/6.jpg" alt="IMG3" class="gallery-img-6" /><img
                 src="SRC/GALLERY/4.webp" alt="IMG4" class="gallery-img-4" /><img src="SRC/GALLERY/5.webp" alt="IMG5"
@@ -252,7 +273,25 @@
     </main>
 
     <aside>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=+57123456789&text=Hola,%20me%20gustaria%20tener%20soporte"
+            class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float "></i>
+        </a>
+        <div id="modal-banner" class="modal">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Discount Banner">
+                    </div>
+                    <div class="modal-text">
+                        <h2>Discount up to <span class="highlight">50%</span></h2>
+                        <p>Seven days of great deals - what could be better?</p>
+                        <button class="cta-button">Start Show Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </aside>
 
@@ -347,6 +386,7 @@
     </footer>
 
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/banner.js"></script>
 </body>
 
 </html>

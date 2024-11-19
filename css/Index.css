@@ -25,6 +25,95 @@ html{
 }
 
 /* HEADER */
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 700px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.modal-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.modal-text {
+    padding: 0 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.modal-text .highlight {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.modal-text p {
+    margin-bottom: 20px;
+}
+
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: red;
+}
+
+.scrol{
+	height: 100px;
+}
+
 
 .container-hero{
     background-color: var(--background-color);
