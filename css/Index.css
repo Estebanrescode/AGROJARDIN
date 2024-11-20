@@ -357,8 +357,7 @@ footer {
 }
 
 .category-uno {
-	background-image: linear-gradient(#00000080, #00000080),
-		url('SRC/LOGO/logo-vector-stihl.jpg');
+	background-image: url("SRC/LOGO/logo-vector-stihl.jpg"),linear-gradient(#00000080, #00000080);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
