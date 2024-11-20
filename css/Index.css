@@ -358,7 +358,7 @@ footer {
 
 .category-uno {
 	background-image: linear-gradient(#00000080, #00000080),
-		src('SRC/LOGO/logo-vector-stihl.jpg');
+		url('SRC/LOGO/logo-vector-stihl.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -366,7 +366,7 @@ footer {
 
 .category-dos {
 	background-image: linear-gradient(#00000080, #00000080),
-		src('SRC/LOGO/makita.png');
+		url('AGROJARDIN/SRC/LOGO/makita.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -374,7 +374,7 @@ footer {
 
 .category-tres {
 	background-image: linear-gradient(#00000080, #00000080),
-		src('SRC/LOGO/husqvarna-svgrepo-com.svg');
+		url('SRC/LOGO/husqvarna-svgrepo-com.svg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
