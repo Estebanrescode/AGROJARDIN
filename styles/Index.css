@@ -286,7 +286,7 @@ border-right: 1px solid #e2e2e2;
 footer {
     flex-direction: row !important;
     background: #c7a17a;
-    color: #fff;
+    color: #000000;
 }
 
 .container-features {
