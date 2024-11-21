@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: linear-gradient(150deg, #f6f7f9, #c7a17a );
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/862/259/non_2x/agriculture-green-rice-field-and-blue-sky-background-free-photo.jpg);
     height: 100vh;
 }
 .formulario{
@@ -25,7 +25,7 @@ body{
 }
 form .usuario{
     position: relative;
-    border-bottom:  2px solid #0a0202;
+    border-bottom:  2px solid #000000;
     margin: 30px 0;
 
 }
@@ -43,7 +43,7 @@ form .usuario{
     position: absolute;
     top: 50%;
     left: 5px;
-    color: #adadad;
+    color: #000000;
     transform: translateY(-50%);
     font-size: 16px;
     pointer-events: none;
@@ -56,13 +56,13 @@ form .usuario{
     left: 0;
     width: 100%;
     height: 2px;
-    background: #000000;
+    background: #f6eded;
     transition: .5s;
 }
 .usuario input:focus ~ label,
 .usuario input:focus ~ label{
     top: -5px;
-    color: #000000;
+    color: #020000;
 }
 .usuario input:focus ~ span::before,
 .usuario input:focus ~ span::before{
@@ -71,7 +71,7 @@ form .usuario{
 }
 .recordar{
     margin: -5px 0 20px 5px;
-    color: blue;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 .recordar:hover{
@@ -80,11 +80,11 @@ form .usuario{
 input[type="submit"]{
     width: 100%;
     height: 50px;
-    border: 1px solid;
-    background: #000000;
+    border: 3px solid;
+    background: #fffffe;
     border-radius: 25px;
     font-size: 18px;
-    color: white;
+    color: #c7a17a;
     cursor: pointer;
     outline: none;
 }
@@ -99,7 +99,7 @@ input[type="submit"]:hover{
     color: black;
 }
 .registro a{
-    color: blue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .registro a:hover{
