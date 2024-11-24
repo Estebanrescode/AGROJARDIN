@@ -358,7 +358,7 @@ footer {
 
 .category-uno {
 	background-image: linear-gradient(#00000080, #00000080), 
-		url('https://github.com/Estebanrescode/AGROJARDIN/blob/2813cd8e9a17e918a3fc59aa4499461369f40cdb/src/galeria/logos/logo-vector-stihl.jpg');
+		url('https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/logo-vector-stihl.jpg');
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -366,7 +366,7 @@ footer {
 
 .category-dos {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('https://github.com/Estebanrescode/AGROJARDIN/blob/2813cd8e9a17e918a3fc59aa4499461369f40cdb/src/galeria/logos/makita.png');
+		url('https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/makita.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
