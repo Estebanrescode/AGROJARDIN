@@ -239,7 +239,7 @@ border-right: 1px solid #e2e2e2;
 
 .menu{
     display: flex;
-    gap: 2rem;
+    gap: 12rem;
 }
 
 .menu li{
@@ -631,4 +631,7 @@ footer {
 	gap: 2rem;
 	margin-bottom: 3rem;
 }
-
+.iconos{
+	font-size: 25px;
+	
+}

@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroJardin</title>
-    <link rel="stylesheet" href="styles/Index.css">
-    <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="icon" href="SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
-    <link rel="stylesheet" href="styles/efectos.css">
-    <link rel="stylesheet" href="styles/whatsappbutton.css">
+    <link rel="stylesheet" href="SRC/styles/Index.css">
+    <link rel="stylesheet" href="SRC/styles/bootstrap.css">
+    <link rel="icon" href="SRC/logo/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
+    <link rel="stylesheet" href="SRC/styles/efectos.css">
+    <link rel="stylesheet" href="SRC/styles/whatsappbutton.css">
     <script src="https://kit.fontawesome.com/4e13bba28a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,7 +18,7 @@
         <div class="container-hero">
             <div class="container hero">
                 <div class="container-logo">
-                    <img src="SRC/LOGO/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png" alt="">
+                    <img src="SRC/logo/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png" alt="">
                     <h1 class="logo"><a href="/">AgroJardin</a></h1>
                 </div>
                 <form class="form-busqueda">
@@ -28,7 +28,7 @@
                     </button>
                 </form>
                 <div class="container-usuario">
-                    <i><a class="fa-solid fa-user" href="PAGINAS/login.html"></a></i>
+                    <i><a class="fa-solid fa-user" href="SRC/paginas/login.html"></a></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-solid fa-clock-rotate-left"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
@@ -45,8 +45,6 @@
                     <li><a href="#">Catalogo</a></li>
                     <li><a href="#DESCUENTOS">Descuentos</a></li>
                     <li><a href="#GALLERY">Galeria</a></li>
-                    <li><a href="#">Destacados</a></li>
-                    <li><a href="#MARCAS">Marcas</a></li>
                     <li><a href="#">Proveedores</a></li>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Guia de devoluciones</a></li>
@@ -68,22 +66,24 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
-                        <img src="SRC/IMAGENES CAROUSEL/PASTIHL.webp" class="d-block w-100 carousel-img" alt="...">
+                        <img src="SRC/imagenes carrousel/PASTIHL.webp" class="d-block w-100 carousel-img"
+                            alt="motosierras">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>MOTOSIERRAS</h5>
                             <p>las mejores para nuestros mejores acerradores</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
-                        <img src="SRC/IMAGENES CAROUSEL/guadaHUS.jpeg" class="d-block w-100 carousel-img" alt="...">
+                        <img src="SRC/imagenes carrousel/guadaHUS.jpeg" class="d-block w-100 carousel-img"
+                            alt="guadañas">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>GUADAÑAS</h5>
                             <p>para nuestros especialistastas en mantenimientos de jardin </p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="6000">
-                        <img src="SRC/IMAGENES CAROUSEL/alquiler-herramientas-de-jardineria-primavera-1.webp"
-                            class="d-block w-100 carousel-img" alt="...">
+                        <img src="SRC/imagenes carrousel/alquiler-herramientas-de-jardineria-primavera-1.webp"
+                            class="d-block w-100 carousel-img" alt="cortacetos">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>CORTACETOS</h5>
                             <p>ideales para darle estilo a los cetos de tu jardin</p>
@@ -108,15 +108,15 @@
             <div class="container-categories">
                 <div class="card-category category-uno">
                     <p>Stihl</p>
-                    <span>Ver más</span>
+                    <a href="https://www.stihl.com.co/es"><span>Ver más</span></a>
                 </div>
                 <div class="card-category category-dos">
                     <p>Makita</p>
-                    <span>Ver más</span>
+                    <a href="https://makita.com.co/"><span>Ver más</span></a>
                 </div>
                 <div class="card-category category-tres">
                     <p>HUSQVARNA</p>
-                    <span>Ver más</span>
+                    <a href="https://www.husqvarna.com/co/"><span>Ver más</span></a>
                 </div>
             </div>
         </section>
@@ -125,26 +125,17 @@
 
             <div class="container-options">
                 <span class="active">Destacados</span>
-                <span>Más recientes</span>
-                <span>Mejores Vendidos</span>
+
             </div>
 
             <div class="container-products">
                 <!-- DESCUENTOS -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="SRC/PRODUCTOS/SOPLADOR STHIL.jpg" alt="SOPLADOR" />
+                        <img src="SRC/productos/SOPLADOR STHIL.jpg" alt="SOPLADOR" />
                         <span class="discount">15%</span>
                         <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+
                         </div>
                     </div>
                     <div class="content-card-product">
@@ -165,18 +156,10 @@
                 <!-- Producto 2 -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="SRC/PRODUCTOS/CORTACETOS.jpeg" alt="CORTACETOS" />
+                        <img src="SRC/productos/CORTACETOS.jpeg" alt="CORTACETOS" />
                         <span class="discount">-5%</span>
                         <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+
                         </div>
                     </div>
                     <div class="content-card-product">
@@ -197,18 +180,10 @@
                 <!--  -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="SRC/PRODUCTOS/BOMBAAGUA.jpg" alt="BOMBAAGUA" />
+                        <img src="SRC/productos/BOMBAAGUA.jpg" alt="BOMBAAGUA" />
                         <span class="discount">-10%</span>
                         <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+
                         </div>
                     </div>
                     <div class="content-card-product">
@@ -230,18 +205,10 @@
                 <!--  -->
                 <div class="card-product">
                     <div class="container-img">
-                        <img src="SRC/PRODUCTOS/Motosierra.jpg" alt="MOTOSIERRA" />
+                        <img src="SRC/productos/Motosierra.jpg" alt="MOTOSIERRA" />
                         <span class="discount">-5%</span>
                         <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
+
                         </div>
                     </div>
                     <div class="content-card-product">
@@ -264,10 +231,10 @@
         </section>
 
         <section class="gallery" id="GALLERY">
-            <img src="SRC/GALLERY/1.webp" alt="IMG1" class="gallery-img-1" /><img src="SRC/GALLERY/2.webp" alt="IMG2"
-                class="gallery-img-2" /><img src="SRC/GALLERY/6.jpg" alt="IMG3" class="gallery-img-6" /><img
-                src="SRC/GALLERY/4.webp" alt="IMG4" class="gallery-img-4" /><img src="SRC/GALLERY/5.webp" alt="IMG5"
-                class="gallery-img-5" /><img src="SRC/GALLERY/3.jpg" alt="IMG6" class="gallery-img-7" />
+            <img src="SRC/gallery/1.webp" alt="IMG1" class="gallery-img-1" /><img src="SRC/gallery/2.webp" alt="IMG2"
+                class="gallery-img-2" /><img src="SRC/gallery/6.jpg" alt="IMG3" class="gallery-img-6" /><img
+                src="SRC/gallery/4.webp" alt="IMG4" class="gallery-img-4" /><img src="SRC/gallery/5.webp" alt="IMG5"
+                class="gallery-img-5" /><img src="SRC/gallery/3.jpg" alt="IMG6" class="gallery-img-7" />
         </section>
 
     </main>
@@ -286,8 +253,9 @@
                     </div>
                     <div class="modal-text">
                         <h2>APROVECHA EL DESCUENTO EN NUESTRAS <span class="highlight">GUADAÑAS</span></h2>
-                        <p>solo aplica para pagos en efectivo</p>
-                        <button class="cta-button">COMPRAR</button>
+                        <p>registrate y disfruta del descuento</p>
+                        <a href="http://127.0.0.1:5500/SRC/paginas/registro.html"><button
+                                class="cta-button">REGISTRARME</button></a>
                     </div>
                 </div>
             </div>
@@ -338,6 +306,17 @@
                             _msthash="55">Preguntas frecuentes</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" _msttexthash="107419"
                             _msthash="56">Acerca de</a></li>
+
+
+                    <li class="iconos"><a href="https://www.facebook.com/"><i
+                                class="fa-brands fa-facebook"></i></a><a href="https://www.instagram.com/"><i
+                                class="fa-brands fa-instagram"></i></a><a href="https://x.com/"><i
+                                class="fa-brands fa-x-twitter"></i></a><a
+                            href="https://api.whatsapp.com/send?phone=+57123456789&text=Hola,%20me%20gustaria%20tener%20soporte"><i
+                                class="fa-brands fa-whatsapp"></i></a></li>
+
+
+
                 </ul>
             </div>
 
@@ -376,8 +355,8 @@
             </ul>
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/banner.js"></script>
+    <script src="SRC/js/bootstrap.bundle.min.js"></script>
+    <script src="SRC/js/banner.js"></script>
 </body>
 
 </html>
