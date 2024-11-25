@@ -11,6 +11,12 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
+html body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -227,6 +233,7 @@ border-right: 1px solid #e2e2e2;
 
 .navbar{
     display: flex;
+	flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
@@ -239,7 +246,7 @@ border-right: 1px solid #e2e2e2;
 
 .menu{
     display: flex;
-    gap: 12rem;
+    gap: 2rem;
 }
 
 .menu li{
