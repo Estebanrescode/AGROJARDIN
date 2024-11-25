@@ -7,9 +7,11 @@
     <title>AgroJardin</title>
     <link rel="stylesheet" href="src/styles/Index.css">
     <link rel="stylesheet" href="src/styles/bootstrap.css">
-    <link rel="icon" href="https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
     <link rel="stylesheet" href="src/styles/efectos.css">
     <link rel="stylesheet" href="src/styles/whatsappbutton.css">
+    <link rel="stylesheet" href="src/styles/catalogo.css">
     <script src="https://kit.fontawesome.com/4e13bba28a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -43,12 +45,12 @@
                 <i class="fa-solid fa-bars-staggered"></i>
                 <ul class="menu">
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="src/catalogo.html">Catalogo</a></li>
                     <li><a href="#DESCUENTOS">Descuentos</a></li>
                     <li><a href="#GALLERY">Galeria</a></li>
                     <li><a href="#MARCAS">Proveedores</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Guia de devoluciones</a></li>
+                    <li><a href="src/nosotros.html">Nosotros</a></li>
+                    <li><a href="src/guia_devolucion.html">Guia de devoluciones</a></li>
                 </ul>
             </nav>
         </div>
@@ -128,106 +130,78 @@
                 <span class="active">Destacados</span>
 
             </div>
-
-            <div class="container-products">
-                <!-- DESCUENTOS -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="src/galeria/productos/SOPLADOR STHIL.jpg" alt="" />
-                        <span class="discount">15%</span>
-                        <div class="button-group">
-
+            <section class="catalogo">
+                <div class="grid-catalogo">
+                    <div class="card">
+                        <img src="src/galeria/productos/SOPLADOR STHIL.jpg" alt="Soplador" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Soplador Stihl BGA 56</h3>
+                            <div class="rating">
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9734;</span>
+                                <span>&#9734;</span>
+                            </div>
+                            <p class="card-text">Soplador STHIL en descuento del 15%</p>
+                            <p class="card-text">Valor: $1.020.000</p>
+                            <p class="card-text"> Antes: <del>$1.200.000</del></p>
+                            <div class="card-actions">
+                                <button class="btn-card">Comprar</button>
+                                <button class="btn-favorite">
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <img src="src/galeria/productos/CORTACETOS.jpeg" alt="Cortacetos" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Cortacetos HUSQVARNA 522HD60S</h3>
+                            <div class="rating">
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9734;</span>
+                            </div>
+                            <p class="card-text">Cortacetos HUSQVARNA con el 5% de descuento</p>
+                            <p class="card-text">Valor: $3.325.000</p>
+                            <p class="card-text">Antes: <del>$3.500.000</del></p>
+                            <div class="card-actions">
+                                <button class="btn-card">Comprar</button>
+                                <button class="btn-favorite">
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                            </div>
                         </div>
-                        <h3>Soplador Stihl BGA 56</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$1.020.000 <span>$1.200.000</span></p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <img src="src/galeria/productos/BOMBAAGUA.jpg" alt="Bomba de agua" class="card-img">
+                        <div class="card-body">
+                            <h3 class="card-title">Bomba de agua Makita PF0403</h3>
+                            <div class="rating">
+                                <span>&#9733;</span>
+                                <span>&#9733;</span>
+                                <span>&#9734;</span>
+                                <span>&#9734;</span>
+                                <span>&#9734;</span>
+                            </div>
+                            <p class="card-text"></p>
+                            <p class="card-text">Valor: $216.999</p>
+                            <p class="card-text">Antes: <del>$241.110</del></p>
+                            <div class="card-actions">
+                                <button class="btn-card">Comprar</button>
+                                <button class="btn-favorite">
+                                    <i class="fa-solid fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Producto 2 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="src/galeria/productos/CORTACETOS.jpeg" alt="" />
-                        <span class="discount">-5%</span>
-                        <div class="button-group">
-
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>Cortacetos HUSQVARNA 522HD60S</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$3.325.000 <span>$3.500.000</span></p>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="src/galeria/productos/BOMBAAGUA.jpg" alt="" />
-                        <span class="discount">-10%</span>
-                        <div class="button-group">
-
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-
-                        </div>
-                        <h3>Bomba de agua Makita PF0403</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$216.999 <span>$241.110</span></p>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="src/galeria/productos/Motosierra.jpg" alt="" />
-                        <span class="discount">-5%</span>
-                        <div class="button-group">
-
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>Motosierra DeWalt DCMCST635N-XJ</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$1.462.500 <span>$1.950.000</span></p>
-                    </div>
-                </div>
-            </div>
+            </section>
             <h1 class="heading-1">Galeria de imagenes</h1>
         </section>
 

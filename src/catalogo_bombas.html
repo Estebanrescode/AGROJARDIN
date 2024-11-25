@@ -7,10 +7,11 @@
     <title>AgroJardin</title>
     <link rel="stylesheet" href="styles/Index.css">
     <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="icon" href="https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/Estebanrescode/AGROJARDIN/refs/heads/main/src/galeria/logos/pngtree-farm-tractor-agriculture-logo-png-image_12300776.png">
     <link rel="stylesheet" href="styles/efectos.css">
     <link rel="stylesheet" href="styles/whatsappbutton.css">
-    <link rel="stylesheet" href="styles/nosotros.css">
+    <link rel="stylesheet" href="styles/catalogo.css">
     <script src="https://kit.fontawesome.com/4e13bba28a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -43,11 +44,11 @@
                 <i class="fa-solid fa-bars-staggered"></i>
                 <ul class="menu">
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="src/catalogo.html">Catalogo</a></li>
+                    <li><a href="#">Catalogo</a></li>
                     <li><a href="../index.html#DESCUENTOS">Descuentos</a></li>
                     <li><a href="../index.html#GALLERY">Galeria</a></li>
                     <li><a href="../index.html#MARCAS">Proveedores</a></li>
-                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="src/nosotros.html">Nosotros</a></li>
                     <li><a href="src/guia_devolucion.html">Guia de devoluciones</a></li>
                 </ul>
             </nav>
@@ -55,34 +56,74 @@
     </header>
 
     <main>
-        <section id="nosotros" class="nosotros">
-            <div class="container">
-                <h2>Sobre Nosotros</h2>
-                <p>
-                    El proyecto AGROJARDIN nace con el objetivo de crear soluciones innovadoras y asequibles en el campo
-                    de la maquinaria agrícola. Inspirándonos en las necesidades identificadas, nuestro objetivo es
-                    brindar apoyo, particularmente a las comunidades rurales donde los puntos físicos de venta de este
-                    tipo de productos son limitados. A través de la implementación de metodologías ágiles y un enfoque
-                    centrado en el usuario.
-                </p>
-                <br>
-                <br>
-                <div class="nosotros-content">
-                    <div class="nosotros-image">
-                        <img src="images/nosotros.jpg" alt="Imagen de nuestro equipo">
+        <h1 class="heading-1">Mejores Proveedores</h1>
+        <br>
+        <br>
+        <div class="container-options">
+            <a href="catalogo.html">
+                <span>Todos</span>
+            </a>
+            <a href="catalogo_motosierras.html">
+                <span>Motosierras</span>
+            </a>
+            <a href="catalogo_sopladores.html">
+                <span>Sopladores</span>
+            </a>
+            <a href="catalogo_cortacetos.html">
+                <span>Cortacetos</span>
+            </a>
+            <a href="#">
+                <span class="active">Bombas</span>
+            </a>
+        </div>
+        <section class="catalogo">
+            <div class="grid-catalogo">
+                <div class="card">
+                    <img src="galeria/productos/BOMBAAGUA.jpg" alt="Bomba de agua" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Bomba de agua Makita PF0403</h3>
+                        <div class="rating">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9734;</span>
+                            <span>&#9734;</span>
+                            <span>&#9734;</span>
+                        </div>
+                        <p class="card-text"></p>
+                        <p class="card-text">Valor: $216.999</p>
+                        <p class="card-text">Antes: <del>$241.110</del></p>
+                        <div class="card-actions">
+                            <button class="btn-card">Comprar</button>
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
                     </div>
-                    <div class="nosotros-text">
-                        <h3>Nuestra Historia</h3>
-                        <p>
-                            Este año comenzamos con un solo objetivo: mejorar nuestras vidas. Nos enfrentamos a muchas
-                            dificultades, incluyendo que parte del equipo se fue, cambios de última hora en el proyecto.
-                            A pesar de todo, no nos rendimos. Nadie esperaba nada de nosotros y hoy, más fuertes que
-                            nunca, podemos decir que, a pesar de todo, logramos lo que nos propusimos.
-                        </p>
+                </div>
+                <div class="card">
+                    <img src="galeria/productos/BOMBA AGUA HUSQVARNA W100D.webp" alt="Bomba de agua" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">Bomba de agua HUSQVARNA W100D</h3>
+                        <div class="rating">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9734;</span>
+                        </div>
+                        <p class="card-text"></p>
+                        <p class="card-text">Valor: $1.999.000</p>
+                        <div class="card-actions">
+                            <button class="btn-card">Comprar</button>
+                            <button class="btn-favorite">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <aside>
